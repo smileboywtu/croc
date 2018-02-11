@@ -21,7 +21,7 @@ builds:
         goarch: 386
     env:
       - CGO_ENABLED=0
-    ldflags: -w -s -X main.version={{.Env.CROC_VERSION}} -X main.author={{.Env.CROC_AUTHOR}} -X main.email={{.Env.EMAIL}}
+    ldflags: -w -s -X main.version={{.Env.CROC_VERSION}} -X main.author={{.Env.CROC_AUTHOR}} -X main.email={{.Env.CROC_EMAIL}}
 archive:
   replacements:
     amd64: 64bit
