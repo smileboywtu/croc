@@ -33,3 +33,8 @@ archive:
        format: zip
      - goos: darwin
        format: zip
+
+release:
+  github:
+    owner: smileboywtu
+    name: croc
